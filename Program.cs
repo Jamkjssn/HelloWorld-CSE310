@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+// Console.WriteLine("Hello, World!");
+String helloWorld = "Hello, World!";
+char[] helloArray = helloWorld.ToCharArray();
 
-Console.WriteLine("Hello, World!");
+foreach (char letter in helloArray)
+{
+    Console.Write(letter);
+}
